@@ -9,11 +9,10 @@ public class Main {
 
         if (refill > 1000) {
             sum = onAccount + refill + bonus; // если сумма пополнения больше 1000, то начисляем бонусы
-            System.out.println("Бонус: " + bonus);
         } else {
             sum = onAccount + refill; // иначе - не начисляем
         }
-
+        System.out.println("Бонус: " + bonus);
         System.out.println("Итоговая сумма: " + sum);
     }
 }
